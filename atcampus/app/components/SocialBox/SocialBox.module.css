@@ -1,0 +1,25 @@
+.profile {
+    display: flex;
+}
+
+.container {
+    width: 57%;
+}
+
+.imgContainer4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+}
+.imgContainer3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+}
+.imgContainer1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.imgContainer0 {
+    display: none;
+}
